@@ -1,0 +1,38 @@
+page {
+  background-color: #f7f7f7;
+}
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .swiper {
+  width: 100%;
+  padding: 20rpx;
+}
+.container .qa {
+  width: 100%;
+  height: 100rpx;
+  padding: 24rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.container .qa .title {
+  font-size: 30rpx;
+  font-weight: 600;
+  border-bottom: 8rpx solid #00cdcd;
+}
+.container .qa .unfold {
+  width: 120rpx;
+  height: 60rpx;
+  color: #00cdcd;
+  border-radius: 10rpx;
+  border: 2rpx solid #00cdcd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recycle/recycle",
+    "pages/mine/mine",
+    "pages/good-book/good-book"
+  ],
+  "window": {
+    "defaultTitle": "骑马收书"
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "icon": "image/tabbar/home.png",
+        "activeIcon": "image/tabbar/home0.png",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/recycle/recycle",
+        "icon": "image/tabbar/home.png",
+        "activeIcon": "image/tabbar/home0.png",
+        "name": "回收车"      
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "icon": "image/tabbar/home.png",
+        "activeIcon": "image/tabbar/home0.png",
+        "name": "我的"      
+      },
+      {
+        "pagePath": "pages/good-book/good-book",
+        "icon": "image/tabbar/home.png",
+        "activeIcon": "image/tabbar/home0.png",
+        "name": "淘好书"      
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/component/cu-custom/cu-custom"
+  }
+}

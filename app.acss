@@ -1,0 +1,6 @@
+@import "./style/main.acss";
+@import "./style/icon.acss";
+
+page {
+  background: #f7f7f7;
+}

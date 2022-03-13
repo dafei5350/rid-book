@@ -1,0 +1,20 @@
+
+<view class="container">
+  <view class="swiper">
+    <swiper class="screen-swiper square-dot" 
+            indicator-dots="true" 
+            circular="true" 
+            autoplay="true" 
+            interval="5000" 
+            duration="500">
+      <swiper-item a:for="{{swiperList}}" wx:key>
+        <image src="{{item.url}}" mode="aspectFill"></image>
+      
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="qa">
+    <view class="title">骑马收书与问答</view>
+    <view class="unfold">展开</view>
+  </view>
+</view>
